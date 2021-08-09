@@ -1,0 +1,55 @@
+body {
+	font-family: 'Quicksand';
+}
+.row img {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+.jumbotron {
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.jumbotron:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(105, 111, 139, 0.46);
+}
+footer {
+	height: 80px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer .container .col a {
+	color: white;
+}
+.container .col-sm-6 {
+    padding: 20px;
+}
+@media screen and (max-width: 375px){
+	.container {
+		width: 100%;
+		margin: auto;
+	}
+
+	.row img {
+		width: 250px;
+		height: 250px;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 280px){
+	.row img {
+		width: 200px;
+		height: 200px;
+	}
+}
